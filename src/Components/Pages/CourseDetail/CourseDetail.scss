@@ -1,0 +1,143 @@
+.cource_detail {
+    padding: 40px 0px 40px 0px;
+    background-color: rgb(245, 247, 253);
+
+    .cources_decription {
+        padding-right: 30px;
+
+        h4 {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+
+            h5 {
+                margin: 0px 0px 0px 10px;
+            }
+        }
+
+        h2 {
+            color: black;
+            padding: 20px 0px;
+            letter-spacing: 2px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .about_instructor {
+            display: flex;
+            align-items: center;
+
+            .instructur_image {
+                img {
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+
+            h4 {
+                margin: 0px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                margin-left: 20px;
+                font-weight: 700;
+            }
+        }
+        .updated_date{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        .about_course {
+            padding: 60px 0px 0px 0px;
+
+            h3 {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            p {
+                font-family: 'Inter', sans-serif;
+            }
+        }
+    }
+
+    .cources_card {
+        border-radius: 10px;
+        box-shadow: 0 0 38px rgba(0, 0, 0, 0.1);
+        /* Add a box shadow */
+
+        .cources_card_img {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+
+            img {
+                height: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        .card_description {
+            padding: 30px 25px;
+
+            h4 {
+                border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+                padding-bottom: 15px;
+                font-family: 'Montserrat', sans-serif;
+                color: green;
+                font-weight: 700;
+                font-size: 25px;
+                span{
+                    font-size: 18px;
+                }
+            }
+
+            h5 {
+                border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+                padding: 5px 0px 15px 0px;
+                font-family: 'Montserrat', sans-serif;
+
+                .first_one {
+                    margin-left: 16px;
+                }
+
+                span {
+                    color: #252525;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    font-weight: 400;
+                    font-family: 'Open Sans', sans-serif;
+                    margin-left: 10px;
+                    color: gray;
+                }
+
+                svg {
+                    width: 20px !important;
+                    margin: 0px !important;
+
+                    &:hover {
+                        color: #ffc221;
+                    }
+                }
+            }
+
+            .subject {
+                border-bottom: none;
+            }
+
+            button {
+                width: 100%;
+                margin-top: 20px;
+            }
+            .btn_Continue {
+                background-color: #f5f5f542;
+                border:1px solid #f5f5f520;
+                color: #0071dc;
+                &:hover{
+                    background-color:#ffc221;
+                border-color: #ffc221;
+                color: #F5F5F5;
+                }
+            }
+        }
+    }
+}

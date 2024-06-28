@@ -1,0 +1,33 @@
+.lesson_page_outer{
+    padding: 40px 0px ;
+    .lesons_page{
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+            color: #144f87 ;
+            font-family: "Montserrat";
+            margin-bottom: 30px;
+        }
+        .para{
+            font-family: "Montserrat";
+            padding-bottom: 30px;
+            font-size: 17px;
+            line-height: 32px;
+        }
+        .pagination_btn{
+            text-align: center;
+            margin-top: 60px;
+            button{
+                padding: 2px 7px;
+                margin:0px 6px;
+                border: none;
+                background-color: #ecb510;
+                color: #fff; 
+                &.active {
+                    background-color: #007bff; 
+                    color: #fff; 
+                }
+            }
+        }
+    }
+}

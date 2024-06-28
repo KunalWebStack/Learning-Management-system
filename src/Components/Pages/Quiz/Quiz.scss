@@ -1,0 +1,37 @@
+.box {
+    border-radius: 5px;
+    margin:17px 5px;
+    text-align: center;
+    background-color: #E7E9EB;
+    padding: 0px 10px;
+
+    h2 {
+        padding-top: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 47px;
+        @media (max-width:992px) {
+            font-size: 36px;
+        }
+    }
+
+    p {
+        margin-top: 2.2em;
+        margin-bottom: 2em;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+    button {
+        max-width: 200px;
+        width: 100%;
+        font-size: 19px;
+        font-family: 'Source Sans Pro', sans-serif;
+        border-radius: 20px;
+        padding: 6px 0px;
+        opacity: 0.8;
+        background-color: #0071dc;
+        color: white;
+        border: none;
+        margin-bottom:2em ;
+    }
+}

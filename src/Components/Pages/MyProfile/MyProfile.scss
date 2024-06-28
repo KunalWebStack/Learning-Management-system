@@ -1,0 +1,177 @@
+.profile_main {
+    padding-bottom: 40px;
+
+    .profile_main_inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px;
+
+        .profile_img {
+            display: flex;
+            align-items: center;
+
+            .profile_img img {
+                margin-right: 20px;
+            }
+
+            h1 {
+                font-size: 30px;
+                line-height: 1.6;
+                margin: 0;
+                font-weight: 500;
+                font-family: "Montserrat";
+            }
+        }
+
+        .reffrel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+
+            button {
+                border: 2px solid #eee;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: 700;
+                padding: 7px 25px;
+                height: 100%;
+
+            }
+
+            h2 {
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: 500;
+                padding: 7px 25px;
+                height: 100%;
+                display: flex;
+                margin: 0;
+                align-items: center;
+                background: #eee;
+            }
+        }
+
+        .affiliate_link {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .affiliate_link_status {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .btn {
+                    padding-bottom: 10px;
+                }
+
+                p {
+                    margin-top: 10px;
+                    color: green;
+                }
+            }
+
+            button {
+                border: 2px solid #eee;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: 700;
+                padding: 7px 25px;
+                min-height: 50px;
+                border-radius: 5px;
+                height: 100%;
+
+                &:hover {
+                    background-color: gold;
+                }
+            }
+        }
+    }
+
+    .my_profile_meain {
+        background-color: #EEF0F4;
+        height: 100%;
+        padding-bottom: 20px;
+        border-radius: 5px;
+        .editing {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+            h1 {
+                font-size: 28px;
+                font-weight: 500;
+                padding: 40px;
+                font-family: "Montserrat";
+                line-height: 1.2;
+                color: #252525;
+            }
+
+            .save_btn {
+                margin-right: 40px;
+                border: none;
+                padding: 5px 20px;
+                font-size: 14px;
+                font-weight: 700;
+                background-color: #0071dc;
+                border-color: #0071dc;
+                color: #FFFFFF;
+                padding: 0px 20px;
+                height: 30px;
+                border-radius: 5px;
+            }
+
+            .edit_btn {
+                margin-right: 40px;
+                background-color: #ffc221;
+                border-color: #ffc221;
+                color: #031f42;
+                padding: 0px 20px;
+                font-size: 15px;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+             }
+           
+        }
+
+    }
+
+    .my_profile_meain_inner {
+        background: white;
+        margin: 20px 40px;
+        padding: 20px;
+        border-radius: 5px;
+        // background-color: #1b2531;
+
+        .my_pro_info {
+            display: flex;
+            align-items: baseline;
+            font-weight: 500;
+            color: #666666;
+            min-width: 180px;
+            padding-right: 10px;
+            line-height: 26px;
+            font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+            h4 {
+                min-width: 300px;
+                font-size: 20px;
+            }
+
+            input{
+                margin-bottom: 16px;
+                height: 26px;
+                border: 1px solid #EEF0F4;
+                outline: none;
+             }
+        }
+    }
+}
+.error-message{
+    color: red;
+    font-size: 14px;
+}
